@@ -9,9 +9,12 @@
  * from the previous queestion
 */
 
+function isPalindrome(cadena){
+  console.log(cadena)
+  return cadena
+}
 
-
-
+function reverseString()
 
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~

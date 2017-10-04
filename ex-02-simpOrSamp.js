@@ -7,6 +7,23 @@
  *   If an element in the array is 6 characters or longer, append 'Simpson': 'Jessica Simpson'
  *
 */
+function simpOrSamp(simpList) {
+
+var arrayLess6 = []
+
+
+for (var  i = 0;i < simpList.length; i++ ) {
+
+  if (simpList[i].length < 6 ) {
+
+    arrayLess6.push(simpList[i] + " Sampson")
+} else if (simpList[i].length >= 6) {
+  
+arrayLess6.push(simpList[i] + " Simpson")
+}
+}
+return arrayLess6
+}
 
 
 

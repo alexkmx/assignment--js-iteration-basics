@@ -8,13 +8,18 @@
  **/
 
 
-function arrayToString(arrayInput){
-  /* Your code below. Look at the console.asserts to se*/
+function arrayToString(sentencia) {
+
+var arrayString = []
+// var arraySp = sentencia.split(" ")
+for(var i = 0; i < sentencia.length; i++) {
+arrayString.push(sentencia[i])
+
 }
-
-
-
-
+// console.log(arrayString.join(""))
+return arrayString.join("")
+}
+  /* Your code below. Look at the console.asserts to se*/
 
 
 
@@ -27,7 +32,7 @@ var output2 = arrayToString(coolArr)
 var newArray = ['cool', 'great', 'awesome', 'super']
 var output3 = arrayToString(newArray)
 
-var lastARray = ['wow', 'great', 'wow', 'neat']
+var coolArr3 = ['wow', 'great', 'wow', 'neat']
 var output4 = arrayToString(coolArr3)
 
 console.assert( output1 === "Hellohowareyou" )

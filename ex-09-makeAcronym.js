@@ -6,8 +6,21 @@
 //
 // makeAcronym('PNG')
 //  => 'PDF'
+function extractWord(word) {
+return word.charAt()
+}
 
 
+function makeAcronym(outputAcronim) {
+//  Primero romper en palabras
+for( var i = 0; i < outputAcronim.length; i++) {
+var romper = outputAcronim.split(" ")
+var recabar = extractWord()
+
+}
+console.log(recabar);
+
+}
 
 
 
@@ -16,6 +29,7 @@
 
 //*~*~*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
 
+console.assert( makeAcronym('Wortable Document Format Object') === 'WDFO' );
 console.assert( makeAcronym('Portable Document Format') === 'PDF' );
 console.assert( makeAcronym('be right back') === 'BRB' )
 console.assert( makeAcronym('National Broadcasting Company') === 'NBC' )

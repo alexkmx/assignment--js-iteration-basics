@@ -9,13 +9,19 @@
 */
 
 
+function shortiesOnly(list) {
 
+var newArray = []
 
+for(var i = 0; i < list.length; i++) {
 
+if(list[i].length <= 4) {
+newArray.push(list[i])
 
-
-
-
+}
+}
+return newArray
+}
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
 

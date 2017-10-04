@@ -6,6 +6,18 @@
  * The function should return a boolean value if that word is found in the array.
  *
 */
+// Funcion llamada wordMatchInArray que tome 2 entradas: una cadena y una matriz.
+function wordMatchInArray(cadena,matriz) {
+
+for(var i = 0; i < matriz.length; i++) {
+
+if (cadena === matriz[i]) {
+// console.log(matriz[i] + "true")
+return true
+}
+}
+return false
+}
 
 
 

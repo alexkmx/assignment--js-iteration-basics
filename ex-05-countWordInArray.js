@@ -8,6 +8,19 @@
  *
 **/
 
+function countWordInArray(cadena, matriz) {
+
+var repetir = []
+
+for (var i = 0; i < matriz.length; i++) {
+
+if (cadena === matriz[i]) {
+repetir.push(matriz[i])
+}
+}
+// console.log(repetir.length)
+return repetir.length
+}
 
 
 
