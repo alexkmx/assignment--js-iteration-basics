@@ -6,20 +6,26 @@
 //
 // makeAcronym('PNG')
 //  => 'PDF'
-function extractWord(word) {
-return word.charAt()
-}
 
 
-function makeAcronym(outputAcronim) {
+
+function makeAcronym(outputAcronym) {
 //  Primero romper en palabras
-for( var i = 0; i < outputAcronim.length; i++) {
-var romper = outputAcronim.split(" ")
-var recabar = extractWord()
+// console.log(outputAcronim.charAt(0));
+var nuevaCadena = []
+var siglas = []
 
+for( var i = 0; i < outputAcronym.length; i++) {
+var romper = outputAcronym.split(" ")
 }
-console.log(recabar);
-
+for(var i = 0; i < romper.length; i++) {
+  nuevaCadena.push(romper[i].charAt().toUpperCase())
+}
+for(var i = 0; i < nuevaCadena.length; i++ ) {
+  siglas.push(nuevaCadena[i])
+}
+// console.log("'" + nuevaCadena.join('').toString() + "'");
+return "'" + nuevaCadena.join('').toString() + "'"
 }
 
 

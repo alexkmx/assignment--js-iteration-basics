@@ -8,15 +8,15 @@
  **/
 
 
-function arrayToString(sentencia) {
+function arrayToString(recibirString) {
 
 var arrayString = []
 // var arraySp = sentencia.split(" ")
-for(var i = 0; i < sentencia.length; i++) {
-arrayString.push(sentencia[i])
+for(var i = 0; i < recibirString.length; i++) {
+arrayString.push(recibirString[i])
 
 }
-// console.log(arrayString.join(""))
+console.log(arrayString.join(""))
 return arrayString.join("")
 }
   /* Your code below. Look at the console.asserts to se*/

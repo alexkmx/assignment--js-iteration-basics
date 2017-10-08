@@ -16,7 +16,7 @@ if (vowel !='a' && vowel !== 'A' && vowel !== 'e' && vowel !== 'E' && vowel !== 
 newString.push(vowel)
 }
 }
-console.log(vowel);
+
 return newString.join("")
 }
 

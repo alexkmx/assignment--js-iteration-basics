@@ -9,12 +9,21 @@
  * from the previous queestion
 */
 
-function isPalindrome(cadena){
-  console.log(cadena)
-  return cadena
+
+
+function isPalindrome(cadenaNormal){
+
+  var cadenaReversa = ''
+  for (var i = cadenaNormal.length-1; i >= 0; i--) {
+    cadenaReversa += cadenaNormal[i]
+    }
+  if(cadenaNormal === cadenaReversa) {
+    return true
+    }
+  return false
 }
 
-function reverseString()
+
 
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~

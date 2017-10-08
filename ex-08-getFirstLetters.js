@@ -31,10 +31,6 @@ return newList
 
 
 
-
-
-
-
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
 
 let outputArray1 = getFirstLetters(['wow', 'milk', 'howdy'])

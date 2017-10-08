@@ -18,7 +18,7 @@ if (cadena === matriz[i]) {
 repetir.push(matriz[i])
 }
 }
-// console.log(repetir.length)
+console.log(repetir.length)
 return repetir.length
 }
 

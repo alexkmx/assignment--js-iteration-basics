@@ -10,12 +10,9 @@
 
 
 function reverseString(cadena) {
-
-cadenaReversa = ""
-
+var cadenaReversa = ""
 for (var i = cadena.length-1; i >= 0; i--) {
 cadenaReversa += cadena[i]
-
 }
 console.log(cadenaReversa);
 return cadenaReversa
